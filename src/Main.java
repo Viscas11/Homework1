@@ -1,10 +1,10 @@
 
 public class Main {
     public static void main(String[] args) {
-    var first_boxer = 78.2;
-    var second_boxer = 82.7;
-        System.out.println(first_boxer + second_boxer);
-        System.out.println(second_boxer - first_boxer);
-        System.out.println(second_boxer % first_boxer);
+        var count_employee = 640 / 8;
+        System.out.println(" Всего работников в компании — " + count_employee + " человек ");
+        count_employee = count_employee + 94;
+        var count_hour = count_employee * 8;
+        System.out.println(" Если в компании работает - " + count_employee + " человек, то всего " + count_hour + " часов работы может быть поделено между сотрудниками ");
     }
 }
